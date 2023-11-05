@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushant - Developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 55px;
+            background-color: gray;
+        }
+
+      	nav ul{
+		display:flex;
+		
+	}
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+	justify-content: center;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: black;
+            font-size: 1.24rem;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 50px 0;
+        }
+
+        .firstSection > div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 30px;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            text-align: center;
+        }
+
+       	.secondSection .skills {
+    background-color: #8b969b;
+    padding: 60px;
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      }
+
+        .footer {
+            background-color: skyblue;
+            padding: 50px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer > div {
+            width: 223px;
+        }
+
+        .footer-rights {
+            text-align: center;
+        }
+
+        .project-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 30px 0;
+        }
+
+        .project-container img {
+            width: 45%;
+        }
+
+        .project-container .project-description {
+            width: 45%;
+            text-align: left;
+        }
+	  .glowing-button-container {
+            text-align: right;
+        }
+
+        .glowing-button {
+            background-color: #8b969b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            margin: 10px 0;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            display: block; 
+        }
+
+        .glowing-button:hover {
+            background-color: red; 
+        }
+
+	.footer-buttons{
+		text-align: center;
+		background-color: black;
+	}
+	.fourthSection{
+		text-align: center;
+	}
+	.thirdSection h1 {
+		text-align: center;
+	}
+	.thirdSection {
+    	text-align: center;
+	}
+
+	.glowing-button-container {
+    	display: inline-block;
+	}
+	.secondSection .skills img {
+    display: block;
+    margin: 0 auto;
+    }
+	
+	.secondSection .img{
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+		margin: 0 23px;
+	}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sushant's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Home">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact Me">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="Home">
+            <div class="leftSection">
+                <p>Hi! My name is Sushant</p>
+                <p>And I am a passionate</p>
+                <p>WEB DEVELOPER</p>
+            </div>
+            <div class="rightSection">
+                <img src="11.png" alt="Sushant's Image" id="About">
+            </div>
+        </section>
+        <hr>
+       <section class="secondSection" id="Skills" align="center">
+            <h1><u>Skills</u></h1>
+            <button class="glowing-button"><img src="html.png" alt="HTML & CSS">
+		</button>
+            <button class="glowing-button"><img src="js.png" alt="JavaScript"></button>
+            <button class="glowing-button"><img src="c.png" alt="C Programming"></button>
+            <button class="glowing-button"><img src="java.png" alt="Java"></button>
+            <button class="glowing-button"><img src="python.png" alt="Python"></button>
+        </section>
+        <hr>
+        <section class="thirdSection" id="Projects">
+            <h1><u>Projects</u></h1>
+            <div class="project-container">
+                <img src="2.png" alt="Banking Management System">
+                <div class="project-description">
+                    <h2><u>Banking Management System</u></h2>
+                    <br><p>The project entitled “Bank management system” is a computerized telecommunications device that provides the customers of a financial institution with access to financial transactions in a public space without the need for a human clerk or bank teller.When it comes to managing the money or valuable assets it automatically becomes a crucial matter for the service provider and the client as well for the trustworthiness. The banking management system is one of the most complex systems because the things it covered under the roof for transparency among the customers.</p></br>
+                </div>
+            </div>
+            <hr>
+            <div class="project-container">
+                <img src="3.png" alt="Ticket Management System">
+                <div class="project-description">
+                    <h2><u>Ticket Management System</u></h2></br>
+                   <br> <p>A ticketing system can track the items in a project management plan. It helps maintain a clear communication trail between customers and agents, enabling businesses to analyze and measure their performance.Ticket management also helps to maintain a clear communication trail between customers and agents. Each interaction can be easily tracked, providing a comprehensive history of the customer's journey. Furthermore, efficient ticket management also enables businesses to analyze and measure their performance.</p>
+                </br></div>
+            </div>
+        </section>
+<hr>
+    
+        <br>
+	<section class="fourthSection" id="Contact Me">
+	<img src="C:\Users\sushant tawade\Desktop\web development\TASK 1\profile.png.jpg" align="center" style="width: 300px; height:400px;">
+                <h3><u>Sushant's Developer Portfolio</u></h3></br>
+            </div>
+            <div class="footer-second">
+                <ul>
+                   <li><a href="#Home">Home</a></li></br>
+                    <li><a href="#About">About</a></li></br>
+                    <li><a href="#Skills">Skills</a></li></br>
+                    <li><a href="#Projects">Projects</a></li></br>
+                    <li><a href="#Contact Me">Contact Me</a></li></br>
+                </ul>
+            </div>
+            <div class="footer-rights">
+               &copy; www.sushantsportfolio.com | All rights reserved.</br>
+	<br><p> Email:sushanttawade2gmail.com</p>
+               
+            </div>
+        </div></br>
+	<div class="footer-buttons">
+                <a href="C:\Users\sushant tawade\Desktop\web development\TASK 1\RESUme.pdf">
+                    <button class="footer-button">Download Resume</button>
+                </a>
+		 <a href="https://www.linkedin.com/in/sushant-tawade-937716250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <button class="footer-button">Linkedin Profile</button>
+                </a>
+                <a href="https://github.com/SushantT01">
+                    <button class="footer-button">GitHub Profile</button>
+                </a><br>..........................................................</br>
+		<hr>
+            </div>
+	   </main>
+    </footer>
+</body>
+</html>
